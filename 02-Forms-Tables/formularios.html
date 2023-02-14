@@ -11,12 +11,29 @@
     <form action="resultados.html">
         <div>
             <label for="username">Username</label>
-            <input type="text" name="username" id="username">
+            <input type="text" name="username" id="username" required>
         </div>
+        <br>
         <div>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" required>
         </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="birth">Birth</label>
+            <input type="date" name="birth" id="birth" required>
+        </div>
+        <br>
+        <div>
+            <label for="edad">Age</label>
+            <input type="number" name="edad" id="edad" min="0" max="150" required>
+        </div>
+        <br>
         <div>
             <label for="comment">Comment</label>
             <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
