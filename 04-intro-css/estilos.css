@@ -1,8 +1,36 @@
-h1 {
+#primer-id {
     color: red;
 }
 
-p {
+.primera-clase {
     color: blue;
     font-size: 16pt;
+}
+
+#segundo-id{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.segunda-clase{
+    color: chocolate;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#tercer-id{
+    color: crimson;
+}
+
+.tercera-clase{
+    color: blue;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+/* Por ejemplo en este caso solo modificara los h1 que esten al final por temas de especifidad en css. Y solo modificara el font-size y el font-family porque en el id no estan escritos. */
+* h1{
+    color: forestgreen;
+    font-size: 50px;
+    font-family: cursive;
 }
