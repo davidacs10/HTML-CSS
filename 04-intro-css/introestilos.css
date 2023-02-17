@@ -32,3 +32,22 @@ h3{
     background-image: url("imagenes/background.jpg");
     background-position: left right;
 }
+
+/* Estilos de altura, anchura, padding y margin */
+.altura h3{
+    color: black;
+    background-color: aqua;
+    height: 400px;
+}
+.anchura h3{
+    color: black;
+    background-color: aquamarine;
+    width: 200px;
+}
+.tarjeta{
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
