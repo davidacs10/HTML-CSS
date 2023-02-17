@@ -1,3 +1,4 @@
+/* Estilos para colores */
 h3{
     color: red;
     font-size: 40px;
@@ -19,4 +20,15 @@ h3{
     color: rgba(100, 0, 200, 0.80);
     font-size: 20px;
     font-weight: bold;
+}
+/* Fondos */
+
+.fondo-internet{
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=360");
+    background-size: center center;
+}
+
+.fondo-interno{
+    background-image: url("imagenes/background.jpg");
+    background-position: left right;
 }
