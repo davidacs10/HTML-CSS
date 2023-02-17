@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    <!-- Existen 4 formas de insertar diseño css a nuestro archivo html
+    1- Es creando un archivo css y mediante la etiqueta link agregarla a nuestro html.
+    2- agregando la etiqueta styles a nuestra etiqueta head en el archivo html directamente.
+    3- agregando el atributo style directamente a la etiqueta html.
+    4- agregando estilos que ya estan diseñados en la web. -->
+    <style> 
+        p{
+            color: red;
+        }
+        html{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <p>hola</p>
+    <button class="pure-button pure-button-active">Boton activo</button>
+    <button style="color: red; padding: 10px; border: none; border-radius: 5px;">Boton personalizado</button>
+</body>
+</html>
