@@ -1,0 +1,22 @@
+h3{
+    color: red;
+    font-size: 40px;
+}
+
+.color-hexadecimal{
+    color: #FF8200;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.color-rgb{
+    color: rgb(100, 0, 200);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.color-rgba{
+    color: rgba(100, 0, 200, 0.80);
+    font-size: 20px;
+    font-weight: bold;
+}
