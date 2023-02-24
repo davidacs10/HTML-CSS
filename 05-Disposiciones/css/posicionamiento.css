@@ -1,0 +1,40 @@
+div {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+/* Relativo: es una variante del posicionamiento estático, donde los elementos se desplazan respecto a su posición original usando las propiedades top, right, bottom y left. */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+/* Fijo: es el posicionamiento donde los elementos se colocan respecto a la ventana del navegador y no se mueven aunque se haga scroll en la pantalla. */
+.fixed {
+    position: fixed;
+    bottom: 150px;
+    left: 100px;
+    background-color: green;
+    z-index: 10;
+}
+/* Absoluto: es el posicionamiento donde los elementos se colocan respecto al elemento contenedor más cercano que tenga un posicionamiento distinto de estático, o al elemento raíz si no hay ninguno. Lo recomendable es ponerlo dentro de un Elemento padre relativo para poder manipularlo dentro de ese elemento*/
+.absolute{
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.relative.container{
+    width: 300px;
+    height: 700px;
+    background-color: blue;
+    z-index: 1;
+}
+/* Pegajoso: es el posicionamiento donde los elementos se comportan como estáticos hasta que alcanzan un límite especificado, y luego se comportan como fijos. */
+.sticky{
+    position: sticky;
+    background-color: hotpink;
+    top: 0px;
+    z-index: 2;
+}
